@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+  /* font-size: 16px; */
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  color: whitesmoke;
+  min-width: 100vw;
+  padding: 1rem;
+}
+
+header {
+  width: 100%;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.create {
+  display: flex;
+  gap: 1rem;
+}
+
+input,
+button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To Do ✅</h1>
+    </header>
+    <hr>
+    <main>
+      <div class="create">
+        <input
+          type="text"
+          name="todo-desc"
+          id="todo-desc"
+          placeholder="To do..."
+        />
+        <div class="time">
+          <input type="date" name="due" id="todo-due" />
+          <input type="time" name="exp" id="todo-exp" />
+        </div>
+        <button id="create-todo">Create</button>
+      </div>
+      <hr>
+      <table>
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Description</th>
+            <th>Time</th>
+            <th>Date</th>
+            <th>Delete</th>
+          </tr>
+          <tbody id="todo-container">
+            
+          </tbody>
+        </thead>
+      </table>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
